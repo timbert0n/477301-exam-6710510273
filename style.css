@@ -1,0 +1,74 @@
+/* 477-301 Exam 1 - ฟาอิซ หะยีหะมะ, 6710510273 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+header {
+    background-color: #eea6e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}   
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}   
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}       
+nav a:hover {
+    background-color: #111;
+}
+main {
+    margin: 20px 0;
+}   
+table {
+    width: 100%;
+    border-collapse: collapse;
+}   
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}   
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}   
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}   
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}   
+footer {
+   text-align: center;
+    padding: 20px;
+    background-color: #eea6e2;
+    color: white;
+    margin-top: 40px;
