@@ -62,9 +62,40 @@
     </section>
     <section id="contact">
         <h2>ติดต่อเรา</h2>
-        <p>ที่อยู่: 123 ถนนโสด, หาดใหญ่, สงขลา, ประเทศไทย</p>
-        <p>โทรศัพท์: 012-345-6789</p>
-        <p>Email: info@farfarawaybakery.com</p>
+        <form action="#" method="post">
+           <fieldset>
+            <legend>กรอกข้อมูลของคุณ</legend>
+            <p>
+                <label for="name">ชื่อ:</label>
+                <input type="text" id="name" name="name" required>
+            </p>
+            <p>
+                <label for="email">อีเมล:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="message">ข้อความ:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </p>
+            <p>
+                <label for="quantity">จำนวน:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+            </p>
+            <p>
+                <label for="product">สินค้า:</label>
+                <select id="product" name="product" required>
+                    <option value="">-- กรุณาเลือกสินค้า --</option>
+                    <option value="bread">ขนมปังฝรั่งเศส</option>
+                    <option value="cake">เค้กช็อกโกแลต</option>
+                    <option value="cookie">คุกกี้เนยสด</option>
+                    <option value="pie">พายผลไม้</option>
+                </select>
+            </p>
+            <p>
+                <label input type ="submit" value="ยืนยันการสั่งซื้อ"></label>
+            </p>
+        </fieldset>
+        </form>
     </section>
 </main> 
 <footer>
